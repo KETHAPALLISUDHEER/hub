@@ -1,0 +1,60 @@
+.container-fluid .container .head{
+    text-align: center;
+}
+.container-fluid .container .place{
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 0px 45px 0px 45px;
+    background-color: #cac0c0;
+    text-align: center;
+    padding: 45px 0 45px 0;
+   
+}
+.container-fluid .container .place .row{
+   
+    width: 100%;
+    text-align: start;
+}
+.container-fluid .container .place .row .place2{
+    padding-top: 15px;
+    text-align: center;
+    
+}
+.container-fluid .container .place .row .place2 button{
+   border-radius: 15px;
+   width: 60px;
+   border: 2px solid rgb(12, 63, 145);
+   background-color: gray;
+    
+}
+.container-fluid .container .place .row .place2 button:hover{
+   
+   background-color: black;
+
+    color: aliceblue;
+     
+ }
+ .container-fluid .container .search1{
+  border: 1px solid red;
+  border-radius: 0px 45px 0 45px;
+  background-color: rgb(196, 203, 203);
+  margin-left: 15px;
+  height: 350px;
+ }
+ .container-fluid .container .search1 #menu{
+   overflow: auto;
+    
+   height: 280px;
+   }
+ .container-fluid .container .search1 input{
+    border-right: 0px;
+ }
+ .container-fluid .container .search1 button{
+    margin-top: 15px;
+    border-left: 0px;
+    border-radius: 0 15px 15px 0;
+ }
+ .container-fluid .container .search1 button:hover{
+   background-color: black;
+   color: white;
+ }

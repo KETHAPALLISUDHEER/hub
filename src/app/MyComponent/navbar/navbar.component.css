@@ -1,6 +1,7 @@
-#myNavbar{
+
+#navbarSupportedContent{
     justify-content: center;
 }
-#myNavbar ul{
+#navbarSupportedContent ul{
     position: absolute;
 }
