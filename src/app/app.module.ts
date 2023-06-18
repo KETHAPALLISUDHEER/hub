@@ -7,6 +7,10 @@ import { NavbarComponent } from './MyComponent/navbar/navbar.component';
 import { RegisterComponent } from './MyComponent/register/register.component';
 import { LoginComponent } from './MyComponent/login/login.component';
 import { IdeasComponent } from './MyComponent/ideas/ideas.component';
+import { HomeComponent } from './MyComponent/home/home.component';
+import { MainhomeComponent } from './MyComponent/mainhome/mainhome.component';
+import { PostIdeasComponent } from './MyComponent/post-ideas/post-ideas.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +18,10 @@ import { IdeasComponent } from './MyComponent/ideas/ideas.component';
     NavbarComponent,
     RegisterComponent,
     LoginComponent,
-    IdeasComponent
+    IdeasComponent,
+    HomeComponent,
+    MainhomeComponent,
+    PostIdeasComponent
   ],
   imports: [
     BrowserModule,

@@ -5,3 +5,21 @@
 #navbarSupportedContent ul{
     position: absolute;
 }
+
+ .mainhome{
+    background-color: black;
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.mainhome2 a{
+margin-right: 20px;
+color: white;
+}
+.mainhome2 a:hover{
+    background-color: chartreuse;
+    }

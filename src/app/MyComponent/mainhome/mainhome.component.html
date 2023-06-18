@@ -1,0 +1,31 @@
+<Section>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row post" *ngFor="let post of Post">
+                <div class="col-md-2 post1">
+                    <img [src]="post.src" class="card-img-top" alt="">
+                </div>
+                <div class="col-md-7 post2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5><u>{{post.title}}</u></h5>
+                        </div>
+                        <div class="col-md-12 post21">
+                            <p>{{post.desc}}</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 post22" ><button>like</button></div>
+                        <div class="col-md-8 post22">
+                            <button>comment</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 post3">
+                    <div>{{post.contact}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Section>

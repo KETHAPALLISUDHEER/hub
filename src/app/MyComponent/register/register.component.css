@@ -32,10 +32,12 @@ background-image: url(/assets/images/image3.jpg);
 }
 .container-fluid .container .row form .input-data input{
    
-   margin: 25px;
+  margin-top: 20px;
+  margin-left: 30px;
      
  }
  .container-fluid .container .row form .input-data button{
+  margin-top: 25px;
    border-radius: 8px;
    background-color: black;
    color: white;
@@ -57,4 +59,7 @@ background-image: url(/assets/images/image3.jpg);
 .container-fluid .container .row form h1{
    text-align: center;
     
+}
+select{
+  margin-top: 25px;
 }
