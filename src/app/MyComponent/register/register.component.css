@@ -1,4 +1,60 @@
+
+.register{
+background-image: url(/assets/images/image3.jpg);    
+}
+.container-fluid .container .form-file {
+   
+    justify-content: center;
+  align-items: center;
+    text-align: center;
+}
+.container-fluid .container .form-file .img-line {
+    mix-blend-mode: multiply;
+    z-index: 2;
+}
 .container-fluid .container .row form{
-    margin-top: 50px;
+    padding: 25px 25px 55px 25px;
+    border: 2px solid black;
+    margin:  50px 0 50px 0;
+    background-color: #d9d9d9;
+    border-radius: 45px;
+    position: relative;
+    left: -88px;
+    z-index: 1;
+    box-shadow: 2px 2px 3px 3px greenyellow;
+    
+}
+.container-fluid .container .row form .input-data{
+   margin-top: 45px;
+   margin-right: 45px;
+  
+    
+}
+.container-fluid .container .row form .input-data input{
+   
+   margin: 25px;
+     
+ }
+ .container-fluid .container .row form .input-data button{
+   border-radius: 8px;
+   background-color: black;
+   color: white;
+      
+  }
+  .container-fluid .container .row form .input-data button:hover{
+    
+    background-color:white;
+    color:black;
+       
+   }
+.container-fluid .container .row .register-bg{
+   
+    background-color: blue;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px grey;
+    color: white;
+}
+.container-fluid .container .row form h1{
+   text-align: center;
     
 }

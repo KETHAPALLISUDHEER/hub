@@ -1,49 +1,51 @@
-.background{
-    font-family: sans-serif;  
-    background-repeat: no-repeat;
-    background: size 1000%;
-    /* background-color: whitesmoke; */
-  }
-  .login-page
-  {
-      width: 450%;
-  }
-  /* .img{
-    background-position: 20%;
-    background-image: 20%;
-  } */
-  header .header{
-    /* background-color: #fff; */
-    height: 45px;
-  }
-  
-  .login-page {
-    width: 450px;
-    padding: 4% 0 0;
-    margin: auto;
-    border: #5b635e;
+section{
+  background-image: url(/assets/images/image1.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
 
-  }
+
+section .login-page .row{
+  margin-top: 0px;
+  
+  justify-content: center;
+  align-items: center;
+} 
+
+.sideimage img{
+  mix-blend-mode: multiply;
+}
+
+.profile img{
+  border-radius: 255px;
+  height: 150px;
+  width: 150px;
+}
+  .form {
+    position: relative;
+    z-index: 1;
+    opacity: 0.9;
+    background: #3a388a;
+    max-width: 360px;
+    margin: 0 auto 10px;
+    margin-top: 45px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 200%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 180px;
+ }
+ .form .login-header{
+  
+  color: black;
+ }
   .login-page .form .login{
     margin-top: 0px;
   margin-bottom: -10px;
   border: #5b635e;
   }
-  .form {
-    position: relative;
-    z-index: 1;
-    background: #c1bfcf;
-    max-width: 360px;
-    margin: 0 auto 10px;
-    padding: 45px;
-    text-align: center;
-    border-radius: 200%;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
- }
+  
   .form input {
     font-family: "Roboto", sans-serif;
     outline: 0;
@@ -75,23 +77,10 @@
     /* color: hsl(0, 5%, 25%); */
     font-size: 12px;
   }
-  .form .message a {
-    /* color: hsl(120, 6%, 34%); */
-    text-decoration: none;
+  .login-form a{
+    cursor: pointer;
   }
   
-  .container {
-    position: relative;
-    z-index: 1;
-    max-width: 500px;
-    margin: 0 auto;
-  }
   
-  body {
-    background-color: hsl(180, 41%, 93%);
-    background-image: linear-gradient(45deg,hsl(40, 33%, 98%),hsl(0, 23%, 97%));
-    font-family: "Roboto", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  
  

@@ -1,5 +1,14 @@
+.ideas{
+  background-color: azure;
+}
 .container-fluid .container .head{
     text-align: center;
+}
+.container-fluid .container .row .image-file1{
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: multiply;
+  
 }
 .container-fluid .container .place{
     margin: 15px;
