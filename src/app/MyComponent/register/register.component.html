@@ -6,34 +6,35 @@
           <img src="./assets/images/img10.png" class="card-img-top" alt="" />
         </div>
         <div class="col-md-5">
-          <form action="">
+          <form action="" [formGroup]="signUpForm">
             <div>
               <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 register-bg">
-                  <h1>Register</h1>
+                  <h3>Register</h3>
                 </div>
               </div>
             </div>
 
             <div class="input-data">
-              <input
+              <input formControlName="name"
                 type="text"
                 placeholder="Enter your name"
                 class="form-control"
               />
-
-              <input
-                type="text"
+              <small *ngIf="signUpForm.controls['name'].dirty && signUpForm.hasError('required','name')" class="text-danger">*Name is required </small>
+              <input formControlName="contact"
+                type="contact"
                 placeholder="Enter your contact"
                 class="form-control"
               />
-
-              <input
+              <small *ngIf="signUpForm.controls['contact'].dirty && signUpForm.hasError('required','contact')" class="text-danger">*Contact is required </small>
+              <input formControlName="email"
                 type="email"
                 placeholder="Enter your email"
                 class="form-control"
               />
+              <small *ngIf="signUpForm.controls['email'].dirty && signUpForm.hasError('required','email')" class="text-danger">*Email is required </small>
               <div class="row">
                 <div class="col-md-5">
                   <input type="date" class="form-control" />
@@ -52,22 +53,25 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <input
+                  <input formControlName="password"
                     type="password"
                     placeholder=" password"
                     class="form-control"
                   />
+                  <small *ngIf="signUpForm.controls['password'].dirty && signUpForm.hasError('required','password')" class="text-danger">*Password is required </small>
                 </div>
 
                 <div class="col-md-6">
-                  <input
+                  <input formControlName="confpassword"
                     type="password"
                     placeholder="confirm password"
                     class="form-control"
                   />
+                  <small *ngIf="signUpForm.controls['confpassword'].dirty && signUpForm.hasError('required','confpassword')" class="text-danger">*Confirm is required </small>
+                  <small *ngIf="check" class="text-danger">password doesn't match</small>
                 </div>
               </div>
-              <button>Register</button>
+              <button (click)="onSingUp()">Register</button>
             </div>
             <!-- <p>Already have an account? <a href="" (click)="loginhere()">login</a></p> -->
           </form>

@@ -19,8 +19,8 @@ section .login-page .row{
 
 .profile img{
   border-radius: 255px;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
   .form {
     position: relative;
@@ -34,14 +34,14 @@ section .login-page .row{
     text-align: center;
     border-radius: 200%;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    border-radius: 180px;
+    border-radius: 130px;
  }
  .form .login-header{
   
   color: black;
  }
   .login-page .form .login{
-    margin-top: 0px;
+    margin-top: -10px;
   margin-bottom: -10px;
   border: #5b635e;
   }
@@ -53,7 +53,7 @@ section .login-page .row{
     width: 100%;
     border: 0;
     margin: 0 0 15px;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
     font-size: 14px;
   }
@@ -63,11 +63,11 @@ section .login-page .row{
     outline: 0;
     background-color: #eaf2f2;
     background-image: linear-gradient(45deg,#141a1a,#222624);
-    width: 100%;
+    width: 40%;
     border: 0;
-    padding: 15px;
+    padding: 5px;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 18px;
     -webkit-transition: all 0.3 ease;
     transition: all 0.3 ease;
     cursor: pointer;
