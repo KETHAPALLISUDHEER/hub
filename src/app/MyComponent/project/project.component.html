@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="container">
+        <div class="row project">
+            
+            <div class="col-md-5 project1">
+                <form action="" [formGroup]="projectForm">
+                    <div>
+                        <h3>Upload Your Project Here!!</h3>
+                    </div>
+                    <hr>
+                    <div class="project11">
+                        <label for="">Project Name:</label>
+                        <input formControlName="projectname" type="text" class="form-control">
+                        <small *ngIf="projectForm.controls['projectname'].dirty && projectForm.hasError('required','projectname')" class="text-danger">*projectname is required</small>
+                    </div>
+                    <br>
+                    <div class="project11">
+                        <label for="">Project Images:</label>
+                        <input formControlName="projectimage" type="file" class="form-control">
+                        <small *ngIf="projectForm.controls['projectimage'].dirty && projectForm.hasError('required','projectimage')" class="text-danger">*projectimage is required</small>
+                    </div>
+                    <br>
+                    <div class="project11">
+                        <label for="">Project Description:</label>
+                        <textarea formControlName="projectdesc" name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        <small *ngIf="projectForm.controls['projectdesc'].dirty && projectForm.hasError('required','projectdesc')" class="text-danger">*project description is required</small>
+                    </div>
+                    <div class="project11 button1">
+                        <button (click)="onUpload()">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

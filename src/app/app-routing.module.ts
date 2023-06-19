@@ -6,8 +6,12 @@ import { IdeasComponent } from './MyComponent/ideas/ideas.component';
 import { HomeComponent } from './MyComponent/home/home.component';
 import { MainhomeComponent } from './MyComponent/mainhome/mainhome.component';
 import { PostIdeasComponent } from './MyComponent/post-ideas/post-ideas.component';
+
+import { ProjectComponent } from './MyComponent/project/project.component';
+
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
+
 
 const routes: Routes = [
   {path:"", component:HomeComponent},
@@ -20,7 +24,11 @@ const routes: Routes = [
   ]
 },
   {path:"mainhome", component:MainhomeComponent},
+
+  {path:"project", component:ProjectComponent}
+
   {path:"about", component:AboutComponent}
+
 
 
   

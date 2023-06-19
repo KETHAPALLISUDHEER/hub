@@ -9,8 +9,28 @@
  .mainhome{
     background-color: black;
     height: 40px;
+    
+}
+.mainhome .menuitem{
+    float: right;
+    position: relative;
+}
+.mainhome .menuitem .submenu{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    background-color: rgb(139, 126, 126);
+    color: aliceblue;
 }
 
+.mainhome2 .items2:hover .submenu{
+   display: block;
+   cursor: pointer;
+}
+.subitem:hover{
+    background-color: blueviolet;
+}
 a{
     text-decoration: none;
     

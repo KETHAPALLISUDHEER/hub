@@ -21,7 +21,7 @@
                 </div>
                
                 <input formControlName="username" type="text" class="form-control" placeholder="Username" required/>
-                <small *ngIf="loginForm.controls['username'].dirty && loginForm.hasError('required','username')" class="text-danger">*usename is required</small>
+                <small *ngIf="loginForm.controls['username'].dirty && loginForm.hasError('required','username')" class="text-danger">*username is required</small>
                 <input formControlName="password" type="password"class="form-control" placeholder="Password" required/>
                 <small  *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')" class="text-danger">*password is required</small>
                 <div><button (click)="onLogin()">login</button></div>

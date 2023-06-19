@@ -27,6 +27,7 @@ export class RegisterComponent implements OnInit{
     if(this.signUpForm.value.password==this.signUpForm.value.confpassword){
       if(this.signUpForm.valid){
         console.log(this.signUpForm.value);
+        alert("Thank You For Registration!!")
         this.check=false
       }
       else{
