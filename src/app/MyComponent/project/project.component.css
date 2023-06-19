@@ -1,0 +1,54 @@
+.container-fluid .container .project{
+    /* border: 2px solid red; */
+    justify-content: center;
+    background-color: rgb(243, 246, 243); 
+    background-position: center;
+    background-size: cover;
+    
+}
+.container-fluid .container .project .project1{
+    border: 2px solid rgb(0, 255, 13);
+    margin: 45px 0 45px 0;
+    box-shadow: 0 0 5px 10px black;
+    border-radius: 15px;
+    background-color: antiquewhite;
+
+}
+.container-fluid .container .project .project1 h3{
+    text-align: center;
+}
+.container-fluid .container .project .project1 .project11{
+    /* border: 2px solid rgb(0, 81, 255); */
+}
+.container-fluid .container .project .project1 .button1 button{
+    margin: 35px;
+    float: right;
+    border-radius: 5px;
+    background-color: aqua;
+    /* color: brown; */
+}
+.container-fluid .container .project .project1 .button1 button:hover{
+    margin: 35px;
+    float: right;
+    border-radius: 5px;
+    background-color: rgb(6, 7, 7);
+   color: white;
+}
+
+@keyframes project{
+    from{
+     transform: translateX(400px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.container-fluid .container .project .project1{
+    animation-name: project;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+
+}

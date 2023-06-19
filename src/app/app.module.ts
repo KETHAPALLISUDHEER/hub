@@ -15,6 +15,7 @@ import { FooterComponent } from './MyComponent/footer/footer.component';
 import { ShreeComponent } from './MyComponent/shree/shree.component';
 
 import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
+import { ProjectComponent } from './MyComponent/project/project.component';
 
 
 
@@ -31,7 +32,8 @@ import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
 
     FooterComponent,
     ShreeComponent,
-    SudheerComponent
+    SudheerComponent,
+    ProjectComponent
 
   ],
   imports: [

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ProjectComponent } from '../project/project.component';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-mainhome',
@@ -6,6 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./mainhome.component.css']
 })
 export class MainhomeComponent {
+  
 Post=[
   {
     src:"/assets/images/image2.jpg",
