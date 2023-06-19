@@ -41,7 +41,7 @@ section .login-page .row{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     /* border-radius: 180px; */
 
-    border-radius: 130px;
+    /* border-radius: 130px; */
 
  }
  .form .login-header{
@@ -91,9 +91,12 @@ section .login-page .row{
   }
   .login-page
   {
-    margin-right: 60%;
+    margin-right: 45%;
     border-top-left-radius: 2rem;
        
   }
-  
+  .message
+  {
+    color: white;
+  }
   

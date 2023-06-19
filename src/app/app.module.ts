@@ -15,11 +15,8 @@ import { FooterComponent } from './MyComponent/footer/footer.component';
 import { ShreeComponent } from './MyComponent/shree/shree.component';
 
 import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
-<<<<<<< HEAD
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
-=======
->>>>>>> a21b79ed05532535d4309981e516c07f064d8bf8
 
 
 
@@ -33,17 +30,15 @@ import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.co
     HomeComponent,
     MainhomeComponent,
     PostIdeasComponent,
-<<<<<<< HEAD
+
     SudheerComponent,
     AboutComponent,
     NavbarAboutComponent,
-    FooterComponent
-=======
+    FooterComponent,
 
     FooterComponent,
     ShreeComponent,
     SudheerComponent
->>>>>>> a21b79ed05532535d4309981e516c07f064d8bf8
 
   ],
   imports: [
