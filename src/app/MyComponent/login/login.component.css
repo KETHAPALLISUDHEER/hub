@@ -1,6 +1,7 @@
 section{
-  background-image: url(/assets/images/img3.jpeg);
+  background-image: url(/assets/images/login_bg.jpg);
   background-size: cover;
+  
   background-position: center;
  
  
@@ -13,7 +14,7 @@ section .login-page .row{
 } 
 
 .sideimage img{
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
   
 }
 
@@ -26,19 +27,26 @@ section .login-page .row{
     position: relative;
     z-index: 1;
     opacity: 0.9;
-    background: #3a388a;
+    /* background: #3a388a; */
+    background: transparent;
     max-width: 360px;
     margin: 0 auto 10px;
     margin-top: 45px;
     padding: 45px;
     text-align: center;
-    border-radius: 200%;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 6rem;
+  border-bottom-left-radius: 2rem;    /* border-radius: 200%; */
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    /* border-radius: 180px; */
+
     border-radius: 130px;
+
  }
  .form .login-header{
   
-  color: black;
+  color: rgb(211, 233, 17);
  }
   .login-page .form .login{
     margin-top: -10px;
@@ -47,7 +55,7 @@ section .login-page .row{
   }
   
   .form input {
-    font-family: "Roboto", sans-serif;
+   font-family: 'Times New Roman', Times, serif;
     outline: 0;
     background: #f2f2f2;
     width: 100%;
@@ -81,7 +89,11 @@ section .login-page .row{
   .login-form a{
     cursor: pointer;
   }
+  .login-page
+  {
+    margin-right: 60%;
+    border-top-left-radius: 2rem;
+       
+  }
   
   
-  
- 
