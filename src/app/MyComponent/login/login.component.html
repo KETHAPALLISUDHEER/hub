@@ -6,22 +6,24 @@
           <div class="col-md-1"></div>
           
           <div class="col-md-2"></div>
-          <div class="col-md-7 ">
+          <div class="col-md-5 ">
             <div class="form">
               <div class="login">
                 <div class="login-header">
-                  <h3><b>LOGIN</b></h3>
-                  <p><b>Please enter your credentials to login.</b></p>
+                  <h4><b>LOGIN</b></h4>
+                  <p><b>Please enter your credentials.</b></p>
                 </div>
               </div>
-              <form class="login-form">
+              <form [formGroup]="loginForm" class="login-form">
                 <div class="profile">
                   <img src="./assets/images/image2.jpg" class="card-img-top" alt="">
                 </div>
                
-                <input type="text" class="form-control" placeholder="Username" />
-                <input type="password"class="form-control" placeholder="Password" />
-                <button>login</button>
+                <input formControlName="username" type="text" class="form-control" placeholder="Username" required/>
+                <small *ngIf="loginForm.controls['username'].dirty && loginForm.hasError('required','username')" class="text-danger">*usename is required</small>
+                <input formControlName="password" type="password"class="form-control" placeholder="Password" required/>
+                <small  *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')" class="text-danger">*password is required</small>
+                <div><button (click)="onLogin()">login</button></div>
                <b> <p class="message">Not registered?  <a><b>Create an account</b></a></p> </b>
               </form>
              

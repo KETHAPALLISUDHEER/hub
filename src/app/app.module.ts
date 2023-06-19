@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './MyComponent/navbar/navbar.component';
@@ -15,8 +15,11 @@ import { FooterComponent } from './MyComponent/footer/footer.component';
 import { ShreeComponent } from './MyComponent/shree/shree.component';
 
 import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
+<<<<<<< HEAD
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
+=======
+>>>>>>> a21b79ed05532535d4309981e516c07f064d8bf8
 
 
 
@@ -30,15 +33,23 @@ import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.co
     HomeComponent,
     MainhomeComponent,
     PostIdeasComponent,
+<<<<<<< HEAD
     SudheerComponent,
     AboutComponent,
     NavbarAboutComponent,
     FooterComponent
+=======
+
+    FooterComponent,
+    ShreeComponent,
+    SudheerComponent
+>>>>>>> a21b79ed05532535d4309981e516c07f064d8bf8
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

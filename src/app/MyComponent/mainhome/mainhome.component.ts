@@ -44,4 +44,8 @@ Post=[
     contact:"connect"
   }
 ]
+totalLike=0;
+like(){
+this.totalLike=this.totalLike+1;
+}
 }

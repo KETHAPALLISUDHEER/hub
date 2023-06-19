@@ -13,26 +13,27 @@ background-image: url(/assets/images/image3.jpg);
     z-index: 2;
 }
 .container-fluid .container .row form{
-    padding: 25px 25px 55px 25px;
+    padding: 25px 25px 25px 25px;
     border: 2px solid black;
-    margin:  50px 0 50px 0;
+    margin:  25px 0 50px 0;
     background-color: #d9d9d9;
     border-radius: 45px;
     position: relative;
     left: -88px;
     z-index: 1;
     box-shadow: 2px 2px 3px 3px greenyellow;
+   
     
 }
 .container-fluid .container .row form .input-data{
-   margin-top: 45px;
+   margin-top: 20px;
    margin-right: 45px;
   
     
 }
 .container-fluid .container .row form .input-data input{
    
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 30px;
      
  }
@@ -62,4 +63,38 @@ background-image: url(/assets/images/image3.jpg);
 }
 select{
   margin-top: 25px;
+}
+
+@keyframes comehere{
+  from{
+    transform: translateX(400px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+
+.container-fluid .container .row form{
+  animation-name: comehere;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s ;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+@keyframes cometo{
+  from{
+    transform: translateX(-400px);
+  }
+  to{
+    transform: translateX(-0px);
+  }
+}
+img{
+  animation-name: cometo;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s ;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 }
