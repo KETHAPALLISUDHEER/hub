@@ -28,7 +28,8 @@ export class RegisterComponent implements OnInit{
       if(this.signUpForm.valid){
         console.log(this.signUpForm.value);
         alert("Thank You For Registration!!")
-        this.check=false
+        this.check=false;
+        this.signUpForm.reset();
       }
       else{
         console.log("invalid Form ");

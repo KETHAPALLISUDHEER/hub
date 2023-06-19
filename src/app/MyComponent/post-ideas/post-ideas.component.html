@@ -9,15 +9,17 @@
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-4 col-lg-6 col-xl-4 offset-xl-1 aa">
-      <form action="" class="postideas1">
+      <form action="" class="postideas1" [formGroup]="postForm">
         <div class="form-outline mb-4">
           <label class="form-label" for="form3Example3"><b>Idea:</b></label>
-          <input
-            type="email"
+          <input formControlName="ideaname"
+            type="text"
             id="form3Example3"
             class="form-control form-control-lg"
             placeholder="Enter your idea "
           />
+          <small *ngIf="postForm.controls['ideaname'].dirty && postForm.hasError('required','ideaname')" class="text-danger">*ideaname is required</small>
+
         </div>
 
         <!-- Password input -->
@@ -25,25 +27,29 @@
           <label class="form-label" for="form3Example4"
             ><b>Description:</b></label
           >
-          <input
-            type="description"
+          <input formControlName="ideadesc"
+            type="text"
             id="form3Example4"
             class="form-control form-control-lg"
             placeholder="Enter description"
           />
+          <small *ngIf="postForm.controls['ideadesc'].dirty && postForm.hasError('required','ideadesc')" class="text-danger">*idea description is required</small>
+
         </div>
         <div class="form-outline mb-3">
           <label class="form-label" for="form3Example4"
             ><b>Contact Details:</b></label
           >
-          <input
+          <input formControlName="ideacontact"
             type="contact"
             id="form3Example4"
             class="form-control form-control-lg"
             placeholder="enter your contact details"
           />
+          <small *ngIf="postForm.controls['ideacontact'].dirty && postForm.hasError('required','ideacontact')" class="text-danger">*contact is required</small>
+
         </div>
-        <button type="button" onclick="alert('your data is submitted') ">
+        <button type="button" (click)="onPost()">
           submit
         </button>
       </form>
