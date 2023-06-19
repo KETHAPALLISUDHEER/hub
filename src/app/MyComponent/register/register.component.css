@@ -9,7 +9,7 @@ background-image: url(/assets/images/image3.jpg);
     text-align: center;
 }
 .container-fluid .container .form-file .img-line {
-    mix-blend-mode: multiply;
+  
     z-index: 2;
 }
 .container-fluid .container .row form{
