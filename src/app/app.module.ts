@@ -10,6 +10,7 @@ import { IdeasComponent } from './MyComponent/ideas/ideas.component';
 import { HomeComponent } from './MyComponent/home/home.component';
 import { MainhomeComponent } from './MyComponent/mainhome/mainhome.component';
 import { PostIdeasComponent } from './MyComponent/post-ideas/post-ideas.component';
+import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PostIdeasComponent } from './MyComponent/post-ideas/post-ideas.componen
     IdeasComponent,
     HomeComponent,
     MainhomeComponent,
-    PostIdeasComponent
+    PostIdeasComponent,
+    SudheerComponent
   ],
   imports: [
     BrowserModule,
