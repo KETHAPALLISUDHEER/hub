@@ -10,12 +10,14 @@ import { IdeasComponent } from './MyComponent/ideas/ideas.component';
 import { HomeComponent } from './MyComponent/home/home.component';
 import { MainhomeComponent } from './MyComponent/mainhome/mainhome.component';
 import { PostIdeasComponent } from './MyComponent/post-ideas/post-ideas.component';
-<<<<<<< HEAD
+
 import { FooterComponent } from './MyComponent/footer/footer.component';
 import { ShreeComponent } from './MyComponent/shree/shree.component';
-=======
+
 import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
->>>>>>> 077160abad124f96740a52862cb2be8fca86ac19
+import { AboutComponent } from './MyComponent/about/about.component';
+import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
+
 
 
 @NgModule({
@@ -28,12 +30,11 @@ import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
     HomeComponent,
     MainhomeComponent,
     PostIdeasComponent,
-<<<<<<< HEAD
-    FooterComponent,
-    ShreeComponent
-=======
-    SudheerComponent
->>>>>>> 077160abad124f96740a52862cb2be8fca86ac19
+    SudheerComponent,
+    AboutComponent,
+    NavbarAboutComponent,
+    FooterComponent
+
   ],
   imports: [
     BrowserModule,
