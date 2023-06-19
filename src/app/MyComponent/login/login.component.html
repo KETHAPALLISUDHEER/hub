@@ -25,7 +25,7 @@
                 <small *ngIf="loginForm.controls['username'].dirty && loginForm.hasError('required','username')" class="text-danger">*usename is required</small>
                 <input formControlName="password" type="password"class="form-control" placeholder="Password" required/>
                 <small  *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')" class="text-danger">*password is required</small>
-                <button (click)="onLogin()">login</button>
+                <div><button (click)="onLogin()">login</button></div>
                <b> <p class="message">Not registered?  <a><b>Create an account</b></a></p> </b>
               </form>
             </div>
