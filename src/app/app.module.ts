@@ -15,27 +15,14 @@ import { FooterComponent } from './MyComponent/footer/footer.component';
 import { ShreeComponent } from './MyComponent/shree/shree.component';
 
 import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
 import { ProjectComponent } from './MyComponent/project/project.component';
 
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
 
-=======
-import { AboutComponent } from './MyComponent/about/about.component';
-import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
-
->>>>>>> e89ca2421e6775d0fc0973e835ba815e06bc078b
-import { ProjectComponent } from './MyComponent/project/project.component';
-
-import { AboutComponent } from './MyComponent/about/about.component';
-import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
 import { FaqComponent } from './MyComponent/faq/faq.component';
 
->>>>>>> 76cd4e88afe22f5a324212591dd76a48e4140af6
 
 
 
@@ -58,19 +45,14 @@ import { FaqComponent } from './MyComponent/faq/faq.component';
     FooterComponent,
     ShreeComponent,
 
-    SudheerComponent,
+    
     ProjectComponent,
 
-<<<<<<< HEAD
-    SudheerComponent,
-      FaqComponent
-=======
-    SudheerComponent
-<<<<<<< HEAD
 
-=======
->>>>>>> 76cd4e88afe22f5a324212591dd76a48e4140af6
->>>>>>> e89ca2421e6775d0fc0973e835ba815e06bc078b
+    
+      FaqComponent,
+
+    
 
   ],
   imports: [

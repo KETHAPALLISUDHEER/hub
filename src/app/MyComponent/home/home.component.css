@@ -1,5 +1,5 @@
 .home{
-    height: 500px;
+    height: 700px;
     background: url(/assets/images/image3.jpg);
     background-size: cover;
     background-position: center;
@@ -10,7 +10,7 @@
     height: 500px;
 }
 .home .container-fluid .container .row .home-image1{
-    padding-top: 65px;
+    padding-top: 85px;
    text-align: center;
    color: white;
    
@@ -19,7 +19,8 @@
     
     /* mix-blend-mode: multiply; */
     position: relative;
-    top: 165px;
+    margin-top: 24%;
+    margin-left: 5%;
 }
 
 @keyframes bounce{
