@@ -1,41 +1,57 @@
-section{
-    background-color: rgb(213, 220, 220);
+section {
+  /* background-color: rgb(180, 238, 194); */
+  background-image: url(../../../assets/images/bg1.jpg);
+  background-size: cover;
 }
-.post{
-    padding-top: 20px;
-    justify-content: center;
+.post {
+  padding-top: 20px;
+  justify-content: center;
 }
-.post .post1{
-    
+.post .post1 {
 }
-.post .post1 img{
-    border: 2px solid black;
-    border-radius: 200px;
+.post .post1 img {
+  border: 2px solid black;
+  border-radius: 200px;
 }
-.post .post2{
+.post .post2 {
+  border: 2px solid rgb(7, 8, 7);
+  box-shadow: 2px 2px 1px 1px rgb(155, 145, 145);
+  /* width: 200px; */
+}
+.post .post2 .post21 {
+  /* border: 2px solid rgb(6, 6, 6); */
+  overflow: auto;
+  height: 80%;
+}
+
+.btn1 {
+  background-color: orange;
+  color: white;
+  border-radius: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 80%;
+  margin-right: 50px;
+}
+.post .post3 {
+  border: 2px solid black;
+  box-shadow: 2px 2px 1px 1px rgb(155, 145, 145);
+}
+
+@media (max-width: 900px) {
+  .post .post1  {
+    height: 90px;
+    width: 90px;
+    margin-left: -30px;
+   
+  }
+  .post .post2 {
     border: 2px solid rgb(7, 8, 7);
     box-shadow: 2px 2px 1px 1px rgb(155, 145, 145);
-    /* width: 200px; */
-}
-.post .post2 .post21{
-    /* border: 2px solid rgb(6, 6, 6); */
-    overflow: auto;
-    height: 80%;
-    
-}
-.btn1
-{
-    background-color: orange;
-    color: white;
-    border-radius: 2rem;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 80%;
-    margin-right: 50px;
-}
-.post .post3{
+    width: 300px;
+  }
+  .post .post3 {
     border: 2px solid black;
     box-shadow: 2px 2px 1px 1px rgb(155, 145, 145);
-    
-    
-    
+    width: 85px;
+  }
 }

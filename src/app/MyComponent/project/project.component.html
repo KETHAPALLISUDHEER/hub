@@ -7,9 +7,10 @@
                     <div>
                         <h3>Upload Your Project Here!!</h3>
                     </div>
+                    <div ><img src="../../../assets/images/upload.png" alt="" width="250px" height="150px" style="margin-left: 25%;"></div>
                     <hr>
                     <div class="project11">
-                        <label for="">Project Name:</label>
+                        <label for="">Project Title:</label>
                         <input formControlName="projectname" type="text" class="form-control">
                         <small *ngIf="projectForm.controls['projectname'].dirty && projectForm.hasError('required','projectname')" class="text-danger">*projectname is required</small>
                     </div>
@@ -22,7 +23,7 @@
                     <br>
                     <div class="project11">
                         <label for="">Project Description:</label>
-                        <textarea formControlName="projectdesc" name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        <textarea formControlName="projectdesc" name="" id="" cols="30" rows="5" class="form-control"></textarea>
                         <small *ngIf="projectForm.controls['projectdesc'].dirty && projectForm.hasError('required','projectdesc')" class="text-danger">*project description is required</small>
                     </div>
                     <div class="project11 button1">

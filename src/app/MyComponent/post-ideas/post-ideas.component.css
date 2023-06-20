@@ -22,3 +22,8 @@
     color: black;
     
  }
+ @media (max-width:850px){
+    img{
+        display: none;
+    }
+ }
