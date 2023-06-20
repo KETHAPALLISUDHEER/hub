@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PostIdeasComponent } from '../post-ideas/post-ideas.component';
 
 @Component({
   selector: 'app-ideas',
@@ -6,46 +7,57 @@ import { Component } from '@angular/core';
   styleUrls: ['./ideas.component.css']
 })
 export class IdeasComponent {
+
     Content=[
       {
         name:"name1",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name2",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name3",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name4",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name5",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name6",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name7",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name8",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name9",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name10",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name11",
@@ -53,15 +65,18 @@ export class IdeasComponent {
       },
       {
         name:"name12",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name13",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       },
       {
         name:"name14",
-        desc:"description"
+        desc:"description",
+        contact:"9821552862"
       }
       
     ]

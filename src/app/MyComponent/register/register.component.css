@@ -10,15 +10,24 @@ background-size: cover;
     text-align: center;
 }
 .container-fluid .container .form-file .img-line {
-  
+    /* margin-left: 255px; */
     z-index: 2;
     margin:  225px 0 50px 0;
    
 }
+.container-fluid .container .form-file .img-line img{
+  /* margin-left: 255px; */
+  position: relative;
+  left: 35px;
+}
 .container-fluid .container .row form{
     padding: 25px 25px 25px 25px;
     border: 2px solid black;
+<<<<<<< HEAD
+    margin:  115px 25px 50px 0;
+=======
     margin:  200px 0 80px 0;
+>>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
     background-color: #d9d9d9;
     border-radius: 45px;
     position: relative;
@@ -29,19 +38,20 @@ background-size: cover;
     
 }
 .container-fluid .container .row form .input-data{
-   margin-top: 20px;
+   margin-top: 50px;
    margin-right: 45px;
   
     
 }
 .container-fluid .container .row form .input-data input{
-   
-  margin-top: 15px;
-  margin-left: 30px;
+  
+  margin-top: 25px;
+  margin-left: 50px;
      
  }
  .container-fluid .container .row form .input-data button{
-  margin-top: 25px;
+  margin-top: 35px;
+  
    border-radius: 8px;
    background-color: black;
    color: white;
@@ -100,4 +110,23 @@ img{
   animation-delay: 0s ;
   animation-iteration-count: 1;
   animation-direction: normal;
+}
+
+
+@media (max-width:900px){
+  .container-fluid .container .form-file .img-line {
+    display: none;
+}
+.container-fluid .container .row form{
+  position: relative;
+  left: 30px;
+  right: 20px;
+  width: 400px;
+}
+.container-fluid .container .row form .input-data input{
+  
+  margin-top: 25px;
+  margin-left: 15px;
+     
+ }
 }

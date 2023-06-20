@@ -60,3 +60,10 @@ h3{
     animation-direction: normal;
 
 }
+
+@media(max-width:1000px) and ( min-width:760px){
+img{
+    position: relative;
+    left: -45px;
+}
+}

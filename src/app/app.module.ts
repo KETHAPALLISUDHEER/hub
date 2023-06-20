@@ -16,8 +16,19 @@ import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
 import { ProjectComponent } from './MyComponent/project/project.component';
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 import { FaqComponent } from './MyComponent/faq/faq.component';
 
+
+
+=======
+
+>>>>>>> 29d387e1e3a9802eb73cb3e1f3c7200f31727251
+import { FaqComponent } from './MyComponent/faq/faq.component';
+
+>>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
 
 
 
@@ -31,6 +42,7 @@ import { FaqComponent } from './MyComponent/faq/faq.component';
     HomeComponent,
     MainhomeComponent,
     PostIdeasComponent,
+<<<<<<< HEAD
     SudheerComponent,
     AboutComponent,
     NavbarAboutComponent,
@@ -38,9 +50,33 @@ import { FaqComponent } from './MyComponent/faq/faq.component';
     FooterComponent,
     ShreeComponent,
     ProjectComponent, 
+=======
+
+    
+    AboutComponent,
+    NavbarAboutComponent,
+    FooterComponent,
+
+    
+    ShreeComponent,
+
+    
+    ProjectComponent,
+
+
+<<<<<<< HEAD
+  
+      FaqComponent,
+
+  
+
+=======
+    
+>>>>>>> 29d387e1e3a9802eb73cb3e1f3c7200f31727251
       FaqComponent,
 
     
+>>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
 
   ],
   imports: [
