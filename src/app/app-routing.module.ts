@@ -25,7 +25,15 @@ const routes: Routes = [
 },
   {path:"mainhome", component:MainhomeComponent},
 
+<<<<<<< HEAD
   {path:"project", component:ProjectComponent},
+=======
+<<<<<<< HEAD
+  {path:"project", component:ProjectComponent},
+=======
+  {path:"project", component:ProjectComponent}
+>>>>>>> 76cd4e88afe22f5a324212591dd76a48e4140af6
+>>>>>>> e89ca2421e6775d0fc0973e835ba815e06bc078b
 
   {path:"about", component:AboutComponent}
 
