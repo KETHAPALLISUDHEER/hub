@@ -16,22 +16,14 @@ import { ShreeComponent } from './MyComponent/shree/shree.component';
 
 import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
 
-<<<<<<< HEAD
-import { ProjectComponent } from './MyComponent/project/project.component';
-
-import { AboutComponent } from './MyComponent/about/about.component';
-import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
-
-=======
-import { AboutComponent } from './MyComponent/about/about.component';
-import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
 
 import { ProjectComponent } from './MyComponent/project/project.component';
 
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
 
->>>>>>> 76cd4e88afe22f5a324212591dd76a48e4140af6
+
+
 
 
 
@@ -58,10 +50,7 @@ import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.co
     ProjectComponent,
 
     SudheerComponent
-<<<<<<< HEAD
 
-=======
->>>>>>> 76cd4e88afe22f5a324212591dd76a48e4140af6
 
   ],
   imports: [
