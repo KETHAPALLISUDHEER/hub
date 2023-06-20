@@ -11,6 +11,8 @@ background-image: url(/assets/images/image3.jpg);
 .container-fluid .container .form-file .img-line {
     /* margin-left: 255px; */
     z-index: 2;
+    margin:  225px 0 50px 0;
+   
 }
 .container-fluid .container .form-file .img-line img{
   /* margin-left: 255px; */
@@ -20,7 +22,11 @@ background-image: url(/assets/images/image3.jpg);
 .container-fluid .container .row form{
     padding: 25px 25px 25px 25px;
     border: 2px solid black;
+<<<<<<< HEAD
     margin:  115px 25px 50px 0;
+=======
+    margin:  200px 0 80px 0;
+>>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
     background-color: #d9d9d9;
     border-radius: 45px;
     position: relative;

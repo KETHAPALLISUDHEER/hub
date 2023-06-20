@@ -20,10 +20,16 @@ import { ProjectComponent } from './MyComponent/project/project.component';
 
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
+<<<<<<< HEAD
 import { FaqComponent } from './MyComponent/faq/faq.component';
 
 
 
+=======
+
+import { FaqComponent } from './MyComponent/faq/faq.component';
+
+>>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
 
 
 
@@ -46,15 +52,22 @@ import { FaqComponent } from './MyComponent/faq/faq.component';
     
     ShreeComponent,
 
-    SudheerComponent,
+    
     ProjectComponent,
 
 
+<<<<<<< HEAD
   
       FaqComponent,
 
   
 
+=======
+    
+      FaqComponent,
+
+    
+>>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
 
   ],
   imports: [

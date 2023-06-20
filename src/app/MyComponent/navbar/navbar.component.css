@@ -23,7 +23,10 @@
     background-color: rgb(139, 126, 126);
     color: aliceblue;
 }
-
+.nav-link:hover
+{
+   color: brown;
+}
 .mainhome2 .items2:hover .submenu{
    display: block;
    cursor: pointer;
