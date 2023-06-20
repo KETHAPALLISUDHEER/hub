@@ -8,7 +8,7 @@
 
  .mainhome{
     background-color: black;
-    height: 40px;
+    height: 60px;
     
 }
 .mainhome .menuitem{
@@ -20,7 +20,7 @@
     left: 0;
     top: 100%;
     display: none;
-    background-color: rgb(139, 126, 126);
+    background-color: rgb(95, 93, 93);
     color: aliceblue;
 }
 .nav-link:hover
@@ -32,19 +32,24 @@
    cursor: pointer;
 }
 .subitem:hover{
-    background-color: blueviolet;
+    background-color: rgb(118, 247, 86);
 }
 a{
     text-decoration: none;
     
 }
 
+
 .mainhome2 a{
 margin-right: 20px;
 color: white;
+padding-top: 10%;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1rem;
 }
 .mainhome2 a:hover{
-    background-color: chartreuse;
+    background-color: rgb(245, 67, 12);
+    border-radius: 0.5rem;;
     }
 
    

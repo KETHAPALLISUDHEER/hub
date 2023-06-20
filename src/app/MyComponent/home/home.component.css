@@ -20,7 +20,7 @@
     /* mix-blend-mode: multiply; */
     position: relative;
     margin-top: 24%;
-    margin-left: 5%;
+     margin-left: 11%;
 }
 
 @keyframes bounce{
@@ -34,7 +34,7 @@
         transform: translateY(-10px);
     }
     80%{
-        transform: translateY(15px);
+        transform: translateY(5px);
     }
     95%{
         transform: translateY(-5px);
@@ -51,7 +51,7 @@ h1{
     animation-iteration-count: 1;
     animation-direction: normal;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 6rem;
+    font-size: 5rem;
     color: yellow;
     
 }

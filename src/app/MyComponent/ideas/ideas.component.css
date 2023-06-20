@@ -1,5 +1,5 @@
 .ideas{
-  background-color: azure;
+  background-color:  rgb(233, 245, 245)
 }
 .container-fluid .container .head{
     text-align: center;
@@ -31,9 +31,9 @@
 }
 .container-fluid .container .place .row .place2 button{
    border-radius: 15px;
-   width: 60px;
+   width: 130px;
    border: 2px solid rgb(12, 63, 145);
-   background-color: gray;
+   background-color: yellow
     
 }
 .container-fluid .container .place .row .place2 button:hover{
@@ -61,7 +61,7 @@
  .container-fluid .container .search1 button{
     margin-top: 15px;
     border-left: 0px;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 px 15px 0;
  }
  .container-fluid .container .search1 button:hover{
    background-color: black;

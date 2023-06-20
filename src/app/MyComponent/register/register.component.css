@@ -1,6 +1,7 @@
 
 .register{
-background-image: url(/assets/images/image3.jpg);    
+background-image: url(/assets/images/image3.jpg);  
+background-size: cover;  
 }
 .container-fluid .container .form-file {
    

@@ -8,15 +8,31 @@
 
             </div>
             <div class="row image-file1">
-                <div class="col-md-3 ">
+                <div class="col-md-4 ">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="assets/images/ideas1.jpeg" alt="" class="card-img-top">
+                            <img src="assets/images/ideas3.png" alt="" class="card-img-top">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-3 place">
+                <div class="col-md-6 search1">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Search here">
+                            <button>search</button>
+                            <a routerLink="postideas" style="padding-left: 20px; color: yellow;"> Do You want post your Idea?</a>
+                        </div>
+                        <div class="col-md-12" id="menu">
+                            <div *ngFor="let t of Content">
+                                <span>{{t.name}}:</span>
+                               <span><p>{{t.desc}}</p></span>
+                           </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 place">
                     <h3><b>Place your:</b></h3>
                    <div class="container">
                     <div class="row">
@@ -36,28 +52,15 @@
                             <h5>-> Opinion</h5>
                         </div>
                         <div class="col-md-12 place2">
-                            <button routerLink="postideas"><b>Post Your Idea</b></button>
+                            <button routerLink="postideas"><b>Post_Your_Idea</b></button>
                         </div>
                     </div>
                    </div>
-                </div>
+                </div> -->
               
-                <div class="col-md-4 search1">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <input type="text" placeholder="Search here">
-                            <button>search</button>
-                        </div>
-                        <div class="col-md-12" id="menu">
-                            <div *ngFor="let t of Content">
-                                <span>{{t.name}}:</span>
-                               <span><p>{{t.desc}}</p></span>
-                           </div>
-                        </div>
-                        
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
 </section>
+<app-footer></app-footer>

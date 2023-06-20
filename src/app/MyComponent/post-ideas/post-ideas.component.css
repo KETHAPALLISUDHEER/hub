@@ -1,24 +1,29 @@
 .sai{
     background-image: url(/assets/images/image3.jpg);
-    color: white;
-}
-.sai .postideas{
-    /* mix-blend-mode: multiply; */
+    color: yellow;
+    background-size: cover;
+   
 }
 
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 4%;
+}
 .sai .postideas1{
     border: 2px solid grey;
-    margin: 55px 0 55px 0;
+    margin: 115px 0 55px 0;
     padding: 30px;
     border-radius: 10px;
 }
+
 .sai .postideas1 button{
    float: right;
    border-radius: 8px;
+   
    font-weight: 900;
 }
 .sai .postideas1 button:hover{
-    background-color: burlywood;
+    background-color: rgb(63, 240, 9);
     color: black;
     
  }
