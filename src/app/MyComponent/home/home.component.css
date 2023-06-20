@@ -1,34 +1,34 @@
-<<<<<<< HEAD
+
 .home {
   height: 500px;
   background: url(/assets/images/image3.jpg);
   background-size: cover;
   background-position: center;
-=======
+
 .home{
     height: 700px;
     background: url(/assets/images/image3.jpg);
     background-size: cover;
     background-position: center;
->>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
+
 }
 .home .container-fluid .container .row .home-image {
   position: relative;
   top: 45px;
   height: 500px;
 }
-<<<<<<< HEAD
+
 .home .container-fluid .container .row .home-image1 {
   padding-top: 65px;
   text-align: center;
   color: white;
-=======
+
 .home .container-fluid .container .row .home-image1{
     padding-top: 85px;
    text-align: center;
    color: white;
    
->>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
+
 }
 .home .container-fluid .container .row .home-image2 {
   /* mix-blend-mode: multiply; */
@@ -124,7 +124,7 @@ h1 {
   }
   .home .container-fluid .container .row .home-image2 {
     /* mix-blend-mode: multiply; */
-<<<<<<< HEAD
+
     position: absolute;
     height: 250px;
     width: 240px;
@@ -141,10 +141,10 @@ h1 {
     /* mix-blend-mode: multiply; */
     height: 250px;
   }
-=======
+
     position: relative;
     margin-top: 24%;
-<<<<<<< HEAD
+
      margin-left: 11%;
 }
 
@@ -223,9 +223,9 @@ h1{
     animation-name: rotate;
     animation-duration: 2s;
     animation-iteration-count: 2;
-=======
+
     margin-left: 5%;
->>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
+
 }
 @media (max-width: 600px) {
   .home .container-fluid .container .row .home-image {
