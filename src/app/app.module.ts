@@ -15,14 +15,11 @@ import { FooterComponent } from './MyComponent/footer/footer.component';
 import { ShreeComponent } from './MyComponent/shree/shree.component';
 
 import { SudheerComponent } from './MyComponent/sudheer/sudheer.component';
-
-import { AboutComponent } from './MyComponent/about/about.component';
-import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
-
 import { ProjectComponent } from './MyComponent/project/project.component';
 
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
+import { FaqComponent } from './MyComponent/faq/faq.component';
 
 
 
@@ -49,7 +46,8 @@ import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.co
     SudheerComponent,
     ProjectComponent,
 
-    SudheerComponent
+    SudheerComponent,
+      FaqComponent
 
   ],
   imports: [

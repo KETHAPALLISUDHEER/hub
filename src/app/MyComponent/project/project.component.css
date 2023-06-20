@@ -1,17 +1,22 @@
 .container-fluid .container .project{
     /* border: 2px solid red; */
     justify-content: center;
-    background-color: rgb(243, 246, 243); 
-    background-position: center;
+    background-color: rgba(10, 10, 10, 0.466); 
+    /* background-position: center; */
     background-size: cover;
+    border-radius: 4rem;
     
 }
+h3{
+    margin-top: 10px;
+}
 .container-fluid .container .project .project1{
-    border: 2px solid rgb(0, 255, 13);
+    border: 4px solid rgb(219, 250, 46);
     margin: 45px 0 45px 0;
     box-shadow: 0 0 5px 10px black;
-    border-radius: 15px;
-    background-color: antiquewhite;
+    border-top-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    background-color: rgb(236, 169, 169);
 
 }
 .container-fluid .container .project .project1 h3{
@@ -23,7 +28,7 @@
 .container-fluid .container .project .project1 .button1 button{
     margin: 35px;
     float: right;
-    border-radius: 5px;
+    border-radius: 3rem;
     background-color: aqua;
     /* color: brown; */
 }
@@ -38,9 +43,12 @@
 @keyframes project{
     from{
      transform: translateX(400px);
+     background-color: rgb(180, 76, 76);
+
     }
     to{
         transform: translateX(0px);
+        background-color: rgb(236, 169, 169);
     }
 }
 .container-fluid .container .project .project1{

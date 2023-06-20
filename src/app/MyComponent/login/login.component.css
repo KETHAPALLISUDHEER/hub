@@ -13,11 +13,6 @@ section .login-page .row{
   align-items: center;
 } 
 
-.sideimage img{
-  /* mix-blend-mode: multiply; */
-  
-}
-
 .profile img{
   border-radius: 255px;
   height: 100px;

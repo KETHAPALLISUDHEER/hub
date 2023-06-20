@@ -1,5 +1,7 @@
 section{
-    background-color: rgb(213, 220, 220);
+    /* background-color: rgb(180, 238, 194); */
+    background-image: url(../../../assets/images/bg1.jpg);
+    background-size: cover;
 }
 .post{
     padding-top: 20px;
@@ -23,6 +25,7 @@ section{
     height: 80%;
     
 }
+
 .btn1
 {
     background-color: orange;
