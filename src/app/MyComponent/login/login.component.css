@@ -27,7 +27,8 @@ section .login-page .row{
     background: transparent;
     /* max-width: 360px; */
     margin: 0 auto 10px;
-    margin-top: 45px;
+    margin-top: 110px;
+    margin-bottom: 55px;
     padding: 45px;
     text-align: center;
     border-top-left-radius: 6rem;

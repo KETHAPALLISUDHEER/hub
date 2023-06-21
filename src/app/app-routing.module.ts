@@ -26,14 +26,12 @@ const routes: Routes = [
   {path:"mainhome", component:MainhomeComponent},
 
 
-<<<<<<< HEAD
+
   
 
-  {path:"project", component:ProjectComponent},
-=======
+  
   {path:"project", component:ProjectComponent},
   
->>>>>>> 660ffc55e2ec3a8a08ff926f0f76c2ed7edcb292
 
   {path:"about", component:AboutComponent}
 
