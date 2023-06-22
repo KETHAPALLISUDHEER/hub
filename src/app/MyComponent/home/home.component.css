@@ -5,6 +5,16 @@
   background: url(/assets/images/mainbg.png);
  background-size: cover;
   background-position: center;
+<<<<<<< HEAD
+=======
+
+.home{
+    height: 700px;
+    background: url(/assets/images/image3.jpg);
+    background-size: cover;
+    background-position: center;
+
+>>>>>>> b7b027da4f5683cfc46f2f84489546fe34f0c1e9
 }
 
 .home .container-fluid .container .row .home-image {
@@ -17,7 +27,11 @@
   padding-top: 65px;
   text-align: center;
   color: white;
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> b7b027da4f5683cfc46f2f84489546fe34f0c1e9
 .home .container-fluid .container .row .home-image1{
     padding-top: 85px;
    text-align: center;
@@ -118,7 +132,11 @@ h1 {
     height: 100%;
   }
   .home .container-fluid .container .row .home-image2 {
+<<<<<<< HEAD
   
+=======
+    /* mix-blend-mode: multiply; */
+>>>>>>> b7b027da4f5683cfc46f2f84489546fe34f0c1e9
 
     position: absolute;
     height: 250px;
@@ -137,6 +155,13 @@ h1 {
     height: 250px;
   }
 
+<<<<<<< HEAD
+=======
+    position: relative;
+    margin-top: 24%;
+
+     margin-left: 11%;
+>>>>>>> b7b027da4f5683cfc46f2f84489546fe34f0c1e9
 }
 
 @keyframes bounce{
