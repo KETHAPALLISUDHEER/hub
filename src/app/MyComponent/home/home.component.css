@@ -1,17 +1,12 @@
 
 .home {
-  height: 500px;
-  background: url(/assets/images/image3.jpg);
-  background-size: cover;
+  height: 45rem;
+
+  background: url(/assets/images/mainbg.png);
+ background-size: cover;
   background-position: center;
 }
-.home{
-    height: 700px;
-    background: url(/assets/images/image3.jpg);
-    background-size: cover;
-    background-position: center;
 
-}
 .home .container-fluid .container .row .home-image {
   position: relative;
   top: 45px;
@@ -31,7 +26,7 @@
 
 }
 .home .container-fluid .container .row .home-image2 {
-  /* mix-blend-mode: multiply; */
+
   position: relative;
   top: 165px;
 }
@@ -123,7 +118,7 @@ h1 {
     height: 100%;
   }
   .home .container-fluid .container .row .home-image2 {
-    /* mix-blend-mode: multiply; */
+  
 
     position: absolute;
     height: 250px;
@@ -138,14 +133,10 @@ h1 {
     font-size: 80px;
   }
   .home .container-fluid .container .row .home-image2 img {
-    /* mix-blend-mode: multiply; */
+    
     height: 250px;
   }
 
-    /* position: relative;
-    margin-top: 24%;
-
-     margin-left: 11%; */
 }
 
 @keyframes bounce{
@@ -235,3 +226,62 @@ h1{
     display: none;
   }
 }
+
+
+/* .banner{
+  background-image: url('../../../assets/images/mainbg.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  object-fit: contain;
+  height: 38.8rem;
+}
+.banner_buttons {
+ 
+  font-size: 2rem;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+h1{
+  font-size: 3.2rem;
+  margin-left: 4rem;
+  padding-top: 23rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  color: yellow;
+
+}
+.banner_buttons .desc{
+  font-size: 1.8rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  color: white;
+  
+
+}
+button{
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+@media (max-width:700px){
+
+  .banner{
+      height: 20rem;
+  }
+  h1{
+      font-size: 1rem;
+      margin-left: 1rem;
+      padding-top: 7rem;
+  }
+  .banner_buttons .desc{
+      font-size: 0.5rem;
+      margin-left: -2.2rem;
+      margin-top: -1.2rem;   
+  }
+  button{
+      font-size: 0.5rem;
+      margin-top: -1.2rem;
+      margin-left: -2.2rem;
+  }
+} */

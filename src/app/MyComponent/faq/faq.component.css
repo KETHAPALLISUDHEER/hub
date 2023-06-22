@@ -2,12 +2,23 @@
 {
     max-width: 900px;
     margin-left: 18rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
     margin-bottom: 8rem;
 }
 .head
 {
     font-family: 'Times New Roman', Times, serif;
-    background-color: blanchedalmond;
+    background-color:#f1efec;
+    color: black
    
+}
+.head
+{
+    margin-top: 1%;
+   
+    text-align: center;
+}
+strong{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
 }

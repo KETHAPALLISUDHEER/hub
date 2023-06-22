@@ -1,10 +1,16 @@
 nav a{
-    color: white;
+    color: rgb(10, 10, 10);
 }
 nav ul a{
-    color: rgb(248, 242, 242);
+    color: rgb(12, 11, 11);
+    font-size: 1.1rem;
+    /* padding: 6px; */
+
 }
 nav ul a:hover
 {
-    color: yellow;
+    border-radius: 1rem;
+    color: red;
+    border: 2px solid black;
+    /* transition: 1s; */
 }

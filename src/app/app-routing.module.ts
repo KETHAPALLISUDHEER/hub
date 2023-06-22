@@ -11,6 +11,8 @@ import { ProjectComponent } from './MyComponent/project/project.component';
 
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
+import { ProfileComponent } from './MyComponent/profile/profile.component';
+import { MainComponent } from './MyComponent/main/main.component';
 
 
 const routes: Routes = [
@@ -24,15 +26,10 @@ const routes: Routes = [
   ]
 },
   {path:"mainhome", component:MainhomeComponent},
-
-
-
-  
-
-  
+  {path:"navbar-about", component:NavbarAboutComponent},
   {path:"project", component:ProjectComponent},
-  
-
+   {path:"profile",component:ProfileComponent},  
+   {path:"main",component:MainComponent},
   {path:"about", component:AboutComponent}
 
 

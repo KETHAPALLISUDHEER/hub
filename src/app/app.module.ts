@@ -17,7 +17,9 @@ import { ProjectComponent } from './MyComponent/project/project.component';
 import { AboutComponent } from './MyComponent/about/about.component';
 import { NavbarAboutComponent } from './MyComponent/navbar-about/navbar-about.component';
 import { FaqComponent } from './MyComponent/faq/faq.component';
-
+// import { MainComponent } from './main/main.component';
+import { MainComponent } from './MyComponent/main/main.component';
+import { ProfileComponent } from './MyComponent/profile/profile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +38,7 @@ import { FaqComponent } from './MyComponent/faq/faq.component';
    
     ShreeComponent,
     ProjectComponent, 
-      FaqComponent,
+      FaqComponent, MainComponent, ProfileComponent,
 
   ],
   imports: [

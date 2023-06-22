@@ -24,10 +24,11 @@ section {
   height: 80%;
 }
 
+
 .btn1 {
-  background-color: orange;
+  background-color: #0061FE;
   color: white;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   font-family: "Times New Roman", Times, serif;
   margin-top: 80%;
   margin-right: 50px;

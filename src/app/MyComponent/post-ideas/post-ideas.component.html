@@ -1,3 +1,4 @@
+<app-navbar-about></app-navbar-about>
 <div class="container-fluid h-custom sai">
   <div class="container">
     <h1 class="text-center">Drop Your Ideas Here !!!</h1>
@@ -49,9 +50,11 @@
           <small *ngIf="postForm.controls['ideacontact'].dirty && postForm.hasError('required','ideacontact')" class="text-danger">*contact is required</small>
 
         </div>
+        <div class="b" style="margin: 2px;">
         <button type="button" (click)="onPost()">
           submit
         </button>
+        </div>
       </form>
     </div>
   </div>

@@ -1,27 +1,27 @@
 <!-- <p>navbar-about works!</p> -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
     <div class="container-fluid">
-        <img [src]="img" alt="" width="50px">
+        <img [src]="img" alt="" width="60px" height="55px">
       <a class="navbar-brand" href="#"><b><i style="color: rgb(207, 224, 16);">{{logo}}</i></b></a>
+      <b style="padding-left: 10px; font-family: 'Times New Roman', Times, serif;font-size: 1.5rem; color: black"><span style="color:red">K</span>nowledge <span style="color: red;">H</span>ub</b> 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav " style="margin-left: 65%; padding: 5px;">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" routerLink="">Home</a>
+            <a class="nav-link" aria-current="page" href="#" routerLink="/mainhome">Main Menu</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" routerLink="About">About us</a>
-          </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link" routerLink="contact">contact us</a>
-          </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-link" routerLink="home">Login</a>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/project">Post Projects</a>
           </li>
-           -->
-          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/ideas">Visit Ideas</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" style="color: blue; padding-left: 30px;" href="" routerLink="/login" >logout</a>
+          </li>
+                     
         </ul>
         
       </div>

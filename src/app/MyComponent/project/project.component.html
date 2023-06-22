@@ -1,3 +1,5 @@
+<app-navbar-about></app-navbar-about>
+<section>
 <div class="container-fluid">
     <div class="container">
         <div class="row project">
@@ -26,6 +28,24 @@
                         <textarea formControlName="projectdesc" name="" id="" cols="30" rows="5" class="form-control"></textarea>
                         <small *ngIf="projectForm.controls['projectdesc'].dirty && projectForm.hasError('required','projectdesc')" class="text-danger">*project description is required</small>
                     </div>
+                    <div class="project11">
+                        <p class="mt-2">Do You Want To Sell Your Project?</p>
+                         <input type="radio" name="purchase" value="yes"><span class="mr-1">Yes</span><br><input type="radio" value="No" name="purchase"><span>No</span>
+                    </div>
+                    <div class="project11">
+                        <label for=""></label>
+                        <label for="">Upload Your Final Project video</label>
+                        <input formControlName="projectimage" type="file" class="form-control">
+                        <small *ngIf="projectForm.controls['projectimage'].dirty && projectForm.hasError('required','projectimage')" class="text-danger">*projectimage is required</small>
+                        
+                    </div>
+                    <div class="project11">
+                        <label for="" class="mt-2">Payement Details:</label>
+                        <!-- <textarea formControlName="projectdesc" name="" id="" cols="30" rows="5" class="form-control"></textarea> -->
+                        <input type="number" placeholder="Enter UPI Number"  class="form-control mt-2" >
+                        <input type="text" placeholder="Enter UPI Id Name" class="form-control mt-2">
+                        <small *ngIf="projectForm.controls['projectdesc'].dirty && projectForm.hasError('required','projectdesc')" class="text-danger">*project description is required</small>
+                    </div>
                     <div class="project11 button1">
                         <button (click)="onUpload()">Upload</button>
                     </div>
@@ -34,3 +54,4 @@
         </div>
     </div>
 </div>
+</section>

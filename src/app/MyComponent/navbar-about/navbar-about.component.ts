@@ -8,15 +8,14 @@ import { Router } from '@angular/router';
 })
 export class NavbarAboutComponent {
   public logo= ""
-public  img='../assets/images/logo.png'
-// constructor(private app:Router)
-// {}
-// ngOnInit()
-// {
+public  img='../assets/images/logoremove.png'
+constructor(private app:Router){}
+ngOnInit()
+ {
 
-// }
-// login1()
-// {
-//   this.app.navigateByUrl("home")
-// }
+ }
+// logout()
+//  {
+//    this.app.navigateByUrl("login")
+//  }
 }

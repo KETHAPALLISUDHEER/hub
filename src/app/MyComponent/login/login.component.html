@@ -1,21 +1,21 @@
-
+<app-navbar></app-navbar>
 <section>
-  <div class="container-fluid">
+  <div class="container-fluid xyz">
     <div class="container">
       <div class="login-page">
         <div class="row">
           <div class="col-md-1"></div>
           
           <div class="col-md-2"></div>
-          <div class="col-md-5 ">
-            <div class="form">
+          <div class="col-md-8">
+            <div class="form" style=" width: 350px">
               <div class="login">
-                <div class="login-header">
-                  <h4><b>LOGIN</b></h4>
-                  <p><b>Please enter your credentials.</b></p>
+                <div class="login-header" style="font-family: 'Times New Roman', Times, serif;">
+                  <h4><b style="color: yellow;" >LOGIN HERE</b></h4>
+                  <p><b style="color: white;">Please Provide your Login Credentials.</b></p>
                 </div>
               </div>
-              <form [formGroup]="loginForm" class="login-form">
+              <form [formGroup]="loginForm" class="login-form" >
                 <div class="profile">
                   <img src="./assets/images/image2.jpg" class="card-img-top" alt="">
                 </div>
@@ -24,8 +24,8 @@
                 <small *ngIf="loginForm.controls['username'].dirty && loginForm.hasError('required','username')" class="text-danger">*username is required</small>
                 <input formControlName="password" type="password"class="form-control" placeholder="Password" required/>
                 <small  *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')" class="text-danger">*password is required</small>
-                <div><button (click)="onLogin()">login</button></div>
-                <p class="message">Not registered?  <a><b style="color: yellow">Create an account</b></a></p> 
+                <div><button (click)="onLogin($event)" style="color: white; font-size: 1rem;" value="login" routerLink="/main">login</button></div>
+                <p class="message">Not registered?  <a routerLink="/register"><b style="color: yellow;">Create an account?</b></a></p> 
               </form>
              
             </div>

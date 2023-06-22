@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -10,7 +10,8 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
   loginForm!: FormGroup;
- constructor(private fb: FormBuilder){}
+ constructor(private fb: FormBuilder, private routes:Router){}
+//  constructor(private routes:Router){}
   ngOnInit(): void {
     this.loginForm = this.fb.group({
       username:['', Validators.required],
@@ -18,10 +19,13 @@ export class LoginComponent implements OnInit {
     })
   }
 
-  onLogin(){
+  onLogin(data:any){
+console.log(data.target.value)
     if(this.loginForm.valid){
+      
       console.log(this.loginForm.value);
-      alert("Succesfully submitted")
+      // alert("Succesfully submitted");
+   
     }
     else{
       console.log("invalid Form ");

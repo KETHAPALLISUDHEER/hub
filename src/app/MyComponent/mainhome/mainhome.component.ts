@@ -14,7 +14,7 @@ Post=[
     src:"/assets/images/image2.jpg",
     title:"Gravitational Force",
     desc:"This in my new projects. I have done this project related to gracitional force",
-    contact:"connect"
+    contact:"purchase:Rs200"
   },
   {
     src:"/assets/images/image2.jpg",

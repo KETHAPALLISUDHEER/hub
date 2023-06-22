@@ -1,7 +1,8 @@
 
 .register{
-background-image: url(/assets/images/image3.jpg);  
+background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-56228.jpg?w=996&t=st=1687422365~exp=1687422965~hmac=0937b68641478987109aaf7541598c5d7d6e6c5c09ce2650e12fc623011c1390);  
 background-size: cover;  
+background-position: center;
 }
 .container-fluid .container .form-file {
    
@@ -28,12 +29,12 @@ background-size: cover;
 
     margin:  200px 0 80px 0;
 
-    background-color: #d9d9d9;
+    background-color:transparent;
     border-radius: 45px;
     position: relative;
     left: -88px;
     z-index: 1;
-    box-shadow: 2px 2px 3px 3px greenyellow;
+    /* box-shadow: 2px 2px 3px 3px greenyellow; */
    
     
 }
@@ -65,10 +66,10 @@ background-size: cover;
    }
 .container-fluid .container .row .register-bg{
    
-    background-color: blue;
+    background-color: #F1F2F5;
     border-radius: 15px;
     box-shadow: 3px 3px 3px 3px grey;
-    color: white;
+    color: black;
 }
 .container-fluid .container .row form h1{
    text-align: center;

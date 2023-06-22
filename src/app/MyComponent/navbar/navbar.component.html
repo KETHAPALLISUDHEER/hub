@@ -2,10 +2,10 @@
 <ng-template #ifblock>
   <div class="row">
     <div class="col-md-12">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-secondary ">
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <img src="../../../assets/images/logo.png" alt="" width="50px" height="50px"><b>Science-Hub</b> 
+          <img src="../../../assets/images/logoremove.png" alt="" width="70px" height="50px"><b style="padding-left: 10px; font-family: 'Times New Roman', Times, serif;font-size: 1.5rem; color: black"><span style="color:red">K</span>nowledge <span style="color: red;">H</span>ub</b> 
           <button
             class="navbar-toggler"
             type="button"
@@ -17,20 +17,20 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-family: 'Times New Roman', Times, serif;">
           
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 60%;">
               <li class="nav-item">
-                <a class="nav-link active" href="">Home</a>
+                <a class="nav-link " href="" routerLink="">Home</a>
               </li>
-              <li class="nav-item"><a class="nav-link" routerLink="about">About</a></li>
+              <li class="nav-item"><a class="nav-link" routerLink="/about">About Us</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="" routerLink="register">Register</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="" routerLink="login">Login</a>
+                <a class="nav-link" href="" routerLink="/register">Register</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="" routerLink="/login">Login</a>
+              </li>
+              <!-- <li class="nav-item">
                 <a
                   class="nav-link"
                   href="#"
@@ -38,7 +38,7 @@
                   (click)="onclick($event)"
                   >Projects</a
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -52,9 +52,9 @@
       <div class="container-fluid">
         <div class="row" style="padding-top: 15px;">
           <div class="col-md-1" >
-            <a href="">Profile</a>
+            <a href="" style="color: aqu;">Profile</a>
           </div>
-          <div class="col-md-4"></div>
+          <div class="col-md-3"></div>
           <div class="col-md-6 mainhome2">
             <div class="menuitem">
               <a href="" routerLink="ideas">Post Ideas</a>
@@ -72,7 +72,7 @@
               <a href="" routerLink="mainhome">Main Menu</a>
             </div>
           </div>
-          <div class="col-md-1">
+          <div class="col-md-1 logout" >
             <a href="" (click)="logout()">LogOut</a>
           </div>
         </div>

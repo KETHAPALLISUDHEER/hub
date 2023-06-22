@@ -1,9 +1,16 @@
 
 #navbarSupportedContent{
     justify-content: center;
+   
 }
 #navbarSupportedContent ul{
     position: absolute;
+   /* float: right; */
+    
+}
+.navbar
+{
+    background-color: #F1F2F5;
 }
 
  .mainhome{
@@ -20,36 +27,60 @@
     left: 0;
     top: 100%;
     display: none;
-    background-color: rgb(95, 93, 93);
-    color: aliceblue;
+    background-color: #B8BCF8;
+    color: black
+}
+.nav-link
+{
+   color: rgb(8, 8, 8);
+  
 }
 .nav-link:hover
 {
-   color: brown;
+    /* background-color: red; */
+    color: red;
 }
 .mainhome2 .items2:hover .submenu{
    display: block;
    cursor: pointer;
 }
 .subitem:hover{
-    background-color: rgb(118, 247, 86);
+    background-color: yellow;
 }
+/* .submenu .subitem
+{
+    color: ;
+} */
 a{
     text-decoration: none;
     
 }
-
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: aqua;
+  
+  }
 
 .mainhome2 a{
 margin-right: 20px;
+/* margin: 10px; */
+margin-top: 2px;
 color: white;
-padding-top: 10%;
+/* padding: 7%; */
+/* margin: 3%; */
 font-family: 'Times New Roman', Times, serif;
 font-size: 1rem;
 }
 .mainhome2 a:hover{
-    background-color: rgb(245, 67, 12);
-    border-radius: 0.5rem;;
+    /* background-color: rgb(245, 67, 12); */
+ /* border-radius: 2rem;
+ border: solid red;
+ transition: 0.8s; */
+ color: yellow;
+    /* padding-top: 2%; */
+    
+    /* border-radius: 0.5rem; */
     }
 
    
